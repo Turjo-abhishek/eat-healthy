@@ -10,8 +10,6 @@ body {
 }
 .image-container img {
   width: 100%;
-  /* position: absolute;
-  left: -230px; */
   width: 792px;
   transform: translateX(-200px);
  
@@ -46,8 +44,34 @@ body {
 .image-container{
     text-align: left;
     width: 50%;
-    /* position: relative; */
-    
 }
 /* --------------------about me section----------------------------------- */
-
+.about-me{
+    display: flex;
+    padding: 40px 0;
+    justify-content: space-evenly;
+    background-image: url("images/shapes/7.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.about-me img{
+    width: 338px;
+    height: 536px;
+    /* margin-right: 15%; */
+}
+.abt-me-half{
+    width: 30%;
+    padding: 50px 0;
+}
+.abt-me-half h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #707070;
+}
+.abt-me-half p{
+    font-weight: 400;
+    font-size: 18px;
+    color: #18191F;
+    margin-bottom: 100px;
+    text-align: justify;
+}
